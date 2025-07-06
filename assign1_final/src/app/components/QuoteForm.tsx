@@ -27,9 +27,10 @@ export default function QuoteForm() {
             </Button>
             <ul className="space-y-2">
                 {selectedQuotes.map((quote, index) => (
-                    <li key={index} className="text-gray-700 italic">"{quote}"</li>
+                    <li key={index} className="text-gray-700 italic">&quot;{quote}&quot;</li>
                 ))}
             </ul>
+
         </div>
     );
 }
