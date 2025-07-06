@@ -5,20 +5,12 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+header{
+      color: red;
+      text-align: center;
+      background-color: lightgray;
+      padding: 10px;}
 body {
   background: var(--background);
   color: var(--foreground);
