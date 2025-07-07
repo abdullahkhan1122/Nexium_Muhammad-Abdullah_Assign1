@@ -2,7 +2,7 @@ import QuoteForm from "./components/QuoteForm";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-6">
+    <main className="flex flex-col items-center justify-center bg-gradient-to-br from-indigo-200 via-purple-100 to-pink-100">
       <QuoteForm />
     </main>
   );
